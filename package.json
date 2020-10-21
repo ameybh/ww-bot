@@ -1,0 +1,25 @@
+{
+  "name": "ww-bot",
+  "version": "1.0.0",
+  "description": "A bot to use the whatsapp-web.js library",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Amey Bhavsar",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameybhavsar24/ww-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ameybhavsar24/ww-bot/issues"
+  },
+  "homepage": "https://github.com/ameybhavsar24/ww-bot#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.9.0"
+  }
+}
