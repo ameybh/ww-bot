@@ -1,4 +1,4 @@
-# Foobar
+# ww-bot
 
 Boilerplate code for [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js) library.
 
