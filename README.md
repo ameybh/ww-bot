@@ -17,7 +17,7 @@ npm i
 ```
 
 ## Usage
-### Start the project locally.
+Start the project locally.
 ```bash
 npm start
 ```
