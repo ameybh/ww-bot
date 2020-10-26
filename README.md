@@ -28,6 +28,7 @@ Start the project locally.
 ```bash
 npm start
 ```
+Open Whatsapp Web QR Scanner on your phone and scan the QR code shown in terminal.
 
 ## License
 [ISC](https://choosealicense.com/licenses/isc/)
