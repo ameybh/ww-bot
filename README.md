@@ -30,7 +30,7 @@ npm start
 ```
 Open Whatsapp Web QR Scanner on your phone and scan the QR code shown in terminal.
 
-Note: The bot will stop when the process is terminated. To deploy the bot, see [HEROKU.md](https://github.com/ameybhavsar24/ww-bot/master/HEROKU.md)
+Note: The bot will stop when the process is terminated. To deploy the bot, see [DEPLOY.md](https://github.com/ameybhavsar24/ww-bot/master/DEPLOY.md)
 
 ## License
 [ISC](https://choosealicense.com/licenses/isc/)
