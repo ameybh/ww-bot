@@ -17,8 +17,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
     console.log(message);
-    if (message.body.indexOf('Hi') != -1 || message.body.indexOf('Hello') != -1) {
-        message.reply('Hello there!\nRegards from ww-bot');
+    const check = message.body.toLowerCase();
+    if (check.indexOf('!hi') != -1 || check.indexOf('!hello') != -1) {
+        message.reply('Hello there!\nI am ww-bot. This is an automated message.\nRead more at https://github.com/ameybhavsar24/ww-bot');
     }
 });
 
