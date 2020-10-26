@@ -14,7 +14,7 @@ client.on('ready', () => {
 client.on('message', message => {
     console.log(message);
     if (message.body.indexOf('Hi') != -1 || message.body.indexOf('Hello') != -1) {
-        message.reply('Hello there!\nRegards from ameyBot');
+        message.reply('Hello there!\nRegards from ww-bot');
     }
 });
 
