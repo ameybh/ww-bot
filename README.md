@@ -15,14 +15,13 @@ git clone https://github.com/ameybhavsar24/ww-bot.git
 ```bash
 npm i
 ```
-Currently, the project uses 2 dependencies which account for about 400 MB.
+Currently, the project uses 2 direct dependencies which account for about 400 MB.
 ```
 "dependencies": {
   "qrcode-terminal": "^0.12.0",
-  "whatsapp-web.js": "^1.9.0"
+  "whatsapp-web.js": "^1.11.0"
 }
 ```
-
 ## Usage
 Start the project locally.
 ```bash
