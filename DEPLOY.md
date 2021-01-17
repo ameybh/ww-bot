@@ -51,4 +51,10 @@ If the deployment and configuration was successful, then you should see a QR cod
 
 Scan this QR code with Whatsapp Web on your phone. If you get the message `Client is Ready!`, you're all set to go!
 
+#### Session storage
+To skip authentication next time, you need to save the current session keys.
+Once authentication is done, the session keys will be printed to your terminal.
+
+To setup Heroku to use them next time create a new Heroku config variable `WW_SESSION`. Set it to the session string printed in terminal. Heroku should automatically use it to authenticate your session next time the app is started.
+
 Happy Hacking!

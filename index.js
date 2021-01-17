@@ -11,12 +11,17 @@ const puppeteerOptions = {
 };
 
 const client = new Client({
-  puppeteer: puppeteerOptions,
-  session: sessionLocal
+    puppeteer: puppeteerOptions,
+    session: sessionLocal
 });
 
 client.on('qr', qr => {
     qrcode.generate(qr, {small: true});
+});
+
+client.on('authenticated', session => {
+    // Save this session object in WW_SESSION manually to reuse it next time
+    console.log(JSON.stringify(session));
 });
 
 client.on('ready', () => {
