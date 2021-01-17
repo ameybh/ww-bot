@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/ameybhavsar24/ww-bot#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "qrcode-terminal": "^0.12.0",
     "whatsapp-web.js": "^1.12.0"
   }

@@ -1,11 +1,19 @@
+require('dotenv').config();
 const qrcode = require('qrcode-terminal');
-
 const { Client } = require('whatsapp-web.js');
+
+let sessionLocal = JSON.parse(process.env.WW_SESSION);
+console.log(sessionLocal);
+
 const puppeteerOptions = {
     headless: true,
-    args: ["--no-sandbox"]
+    args: ["--no-sandbox"],
 };
-const client = new Client({puppeteer: puppeteerOptions});
+
+const client = new Client({
+  puppeteer: puppeteerOptions,
+  session: sessionLocal
+});
 
 client.on('qr', qr => {
     qrcode.generate(qr, {small: true});
@@ -24,3 +32,4 @@ client.on('message', message => {
 });
 
 client.initialize();
+
